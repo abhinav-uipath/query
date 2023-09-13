@@ -1,0 +1,1 @@
+Select id, createddate, case__c,  case__r.Dispute_Reference__c, Email_ID__c, Is_Postal__c, Subject__c, Case_Participant__r.name, Case_Participant__r.Type__c, Case_Participant__r.Primary_Email__c, Case_Participant__r.Primary_Agent__c, Case_Participant__r.AGLL_Raised_Respond__c from Mailjet_Message__c where case__r.Dispute_Reference__c  = 'EWI00000144' order by createddate desc
