@@ -1,0 +1,1 @@
+Select id,Case.Status,Case.Total_Number_of_Days_Current_Status__c,Case.Stage_entry_date__c from CaseHistory where Field ='Status' AND Case.Status='Awaiting review' AND Case.RecordType.Name='Dispute EW Insured' Order by Case.Stage_entry_date__c Desc
